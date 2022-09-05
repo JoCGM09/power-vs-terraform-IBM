@@ -20,12 +20,12 @@ resource "ibm_pi_network" "power_pub_network" {
   pi_cloud_instance_id = local.cloud_instance_id
   pi_network_type      = "pub-vlan"
   pi_dns               = ["9.9.9.9"]
-#  pi_cidr              = "192.168.129.0/29"
-#  pi_gateway           = "192.168.0.1"
-#  pi_ipaddress_range {
-#    pi_starting_ip_address  = "192.168.0.2"
-#    pi_ending_ip_address    = "192.168.0.6"
-#  }
+  pi_cidr              = "192.168.129.0/29"
+  pi_gateway           = "192.168.0.1"
+  pi_ipaddress_range {
+    pi_starting_ip_address  = "192.168.0.2"
+    pi_ending_ip_address    = "192.168.0.6"
+  }
 }
 
 resource "ibm_pi_network" "power_priv_network" {

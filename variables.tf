@@ -9,7 +9,7 @@ variable "crn" {
 }
 variable "image_name" {
   description = "Name of the image you want to use"
-  default     = "jcgm-terraform"
+  default     = "IBMi-74-05-2984-1"
 }
 variable "memory" {
   type        = number
