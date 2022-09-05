@@ -10,7 +10,7 @@ variable "crn" {
 }
 variable "image_name" {
   description = "Name of the image you want to use"
-  default     = "IBMi-74-05-2984-1"
+  default     = "e9426cb2-989d-4dad-be3a-ff193b5c89e1"
 }
 variable "memory" {
   type        = number
