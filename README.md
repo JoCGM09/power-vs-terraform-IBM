@@ -9,7 +9,7 @@ Presentar el procedimiento para desplegar una instancia de Power VS utilizando T
 
 Creamos un repositorio en nuestra cuenta de Github donde agregaremos el proyecto.
 
-<p align="center"><img width="600" src="https://github.com/jose-guerra-m/power-vs-terraform-IBM/blob/master/images/github1.png"></p>
+<p align="center"><img width="600" src="https://github.com/JoCGM09/power-vs-terraform-IBM/blob/master/images/github1.png"></p>
 
 <br />
 
