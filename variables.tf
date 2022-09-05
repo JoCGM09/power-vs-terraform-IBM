@@ -1,6 +1,6 @@
 variable "ibm_cloud_api_key" {
   description = "API Key to use"
-  default     = "DoIJHPqCGkvt2_jcwiAf6TV7sPdLBPILmrFyfX4Bu2AX"
+  default     = "lZQp8aq9c7kEUEyAgISbtLmtcbmU5vp55mKJWf_93uDb"
 }
 variable "crn" {
   type        = string
