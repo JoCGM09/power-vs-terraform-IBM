@@ -1,6 +1,6 @@
 # Despliegue de instancia Power VS usando Terraform y Schematics
 ## Objetivo
-    Presentar el procedimiento para desplegar una instancia de Power VS utilizando Terraform y IBM Schematics para agilizar el despliegue
+Presentar el procedimiento para desplegar una instancia de Power VS utilizando Terraform y IBM Schematics para agilizar el despliegue
 
 ## Creación del reponsitorio en Github
 ## Creación del archivo providers.tf
