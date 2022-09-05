@@ -4,12 +4,13 @@ variable "ibm_cloud_api_key" {
 }
 variable "crn" {
   type        = string
-  default     = "crn:v1:bluemix:public:power-iaas:us-south:a/035c4a9a8dfd4a969cd9409ae37d139c:d79a6170-22cc-47a0-bede-5f141d44f6c0::"
-  description = "Power Systems Virtual Server CRN"
+  # default     = "crn:v1:bluemix:public:power-iaas:us-south:a/035c4a9a8dfd4a969cd9409ae37d139c:d79a6170-22cc-47a0-bede-5f141d44f6c0::"
+  default     = "crn:v1:bluemix:public:power-iaas:mon01:a/3ef163dabf7957b88258cea90efee5c4:9820521b-4224-4cca-92ad-bd130bf76063::"
+  description = "Power Systems Virtual Server CRN location-playbook-mont01"
 }
 variable "image_name" {
   description = "Name of the image you want to use"
-  default     = "7200-03-02"
+  default     = "IBMi-74-05-2984-1"
 }
 variable "memory" {
   type        = number
