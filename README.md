@@ -14,11 +14,12 @@ Colocar el nombre del proyecto y seleccionar Crear Repositorio.
 
 Crear una carpeta en nuestro escritorio donde crearemos los archivos. Una vez creada abrimos una terminal de git dando clic derecho y seleccionando **Git Bash here**, una vez abierta la terminal de Git ingresamos los siguientes comandos: 
 
-<code>git init</code>
-<code>git add .</code>
-<code>git commit -m "first commit"</code>
-<code>git remote add origin + <b>enlace del repositorio</b></code>
-<code>git push -u origin master</b></code>
+1. <code>git init</code>
+2. <code>git add .</code>
+3. <code>git commit -m "first commit"</code>
+4. <code>git remote add origin + <b>enlace del repositorio</b></code>
+5. <code>git push -u origin master</b></code>
+
 <br />
 
 ## Creación del archivo providers.tf
