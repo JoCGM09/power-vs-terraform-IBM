@@ -9,10 +9,10 @@ data "ibm_pi_key" "key" {
   pi_key_name          = var.ssh_key_name
 }
 
-# data "ibm_pi_image" "power_image" {
-#  pi_cloud_instance_id = local.cloud_instance_id
-#  pi_image_name        = var.image_name
-#}
+data "ibm_pi_image" "power_image" {
+ pi_cloud_instance_id = local.cloud_instance_id
+ pi_image_name        = var.image_name
+}
 
 resource "ibm_pi_image" "power_image"{
   pi_image_name       = var.image_name
