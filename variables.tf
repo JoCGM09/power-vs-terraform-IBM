@@ -9,9 +9,11 @@ variable "crn" {
   description = "Power Systems Virtual Server CRN location-playbook-mont01"
 }
 variable "image_name" {
-  description = "Name of the image you want to use"
-  default     = "e9426cb2-989d-4dad-be3a-ff193b5c89e1"
+ description = "Name of the image you want to use"
+ # default     = "e9426cb2-989d-4dad-be3a-ff193b5c89e1"
+ default = "Ubuntu IBM Power"
 }
+
 variable "memory" {
   type        = number
   default     = 5

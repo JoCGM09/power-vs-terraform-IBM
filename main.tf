@@ -9,9 +9,19 @@ data "ibm_pi_key" "key" {
   pi_key_name          = var.ssh_key_name
 }
 
-data "ibm_pi_image" "power_image" {
+# data "ibm_pi_image" "power_image" {
+#  pi_cloud_instance_id = local.cloud_instance_id
+#  pi_image_name        = var.image_name
+#}
+
+resource "ibm_pi_image" "power_image"{
+  pi_image_name       = var.image_name
   pi_cloud_instance_id = local.cloud_instance_id
-  pi_image_name        = var.image_name
+  pi_image_bucket_name = "terraform-os-jgm-cos-standard-rjk"
+  pi_image_bucket_access = "public"
+  pi_image_bucket_region = "us-east"
+  pi_image_bucket_file_name = "ubuntu-22.04.1-live-server-ppc64el.iso"
+  pi_image_storage_type = "tier1"
 }
 
 resource "ibm_pi_network" "power_pub_network" {
